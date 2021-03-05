@@ -1,3 +1,5 @@
+// This solution uses a single loop so time complexity is O(n) and space complexity is O(1)
+
 const getIndexes = (arr, sum) => {
     const hm = {}; // hash mapto store number and it's index
 
